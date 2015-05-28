@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+
+<channel>
+  <title>Family News Feed</title>
+  <link>http://github.com/ARMmaster17/familytask/</link>
+  <description>Family news and updates.</description>
+  <item>
+    <title>News feed</title>
+    <description>This is the news feed. Any family-wide updates you publish on the "parents" dashboard will appear here. Posts made here are visible to any visitors on the site. To create a new post, visit the parents dashboard and sign in with your id.</description>
+  </item>
+  <item>
+    <title>Welcome to Family Task!</title>
+    <description>Family Task is your all-in-one daily chore/task tracking software. Family Task is an open source project, meaning that it always has been and always will be free. For more information, check out http://github.com/ARMmaster17/familytask/.</description>
+  </item>
+</channel>
+</rss> 
