@@ -1,1 +1,90 @@
-
+<html>
+  <header>
+    <title>-Family Task</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/familytask/src/style/default.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+  </header>
+  <body>
+    <nav class="navbar navbar-inverse">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>                        
+         </button>
+         <a class="navbar-brand" href="/familytask/">NETponents</a>
+        </div>
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav">
+            <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/familytask/dashboard/">Dashboard<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="/familytask/dashboard/parents/">Parents</a></li>
+                <li><a href="/familytask/dashboard/children/">Children</a></li>
+              </ul>
+           </li>
+           <li class="dropdown">
+              <a class="dropdown-toggle" data-toggle="dropdown" href="/NETponentsWebsite/opensource/">Help<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+                <li><a href="#">_place_holder</a></li>
+                <li><a href="#">_place_holder</a></li>
+                <li><a href="#">_place_holder</a></li>
+                <li class="divider"></li>
+                <li><a href="#">Search</a></li> 
+              </ul>
+           </li>
+          </ul>
+         <ul class="nav navbar-nav navbar-right">
+            <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>Family Task</h1>
+        <h3>Version: 0.1:7 Alpha</h3>
+    </div>
+    <div class="row">
+      <div class="col-sm-4">
+        <h3>Column 1</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <h3>Column 2</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      </div>
+      <div class="col-sm-4">
+        <script type="text/javascript" src="/familytask/src/js/xml.js"></script>
+        <h3>Live feed</h3>
+        <h5><a href="/familytask/feed.xml" class="feed">subscribe to our feed</a></h5>
+        <div class="rss" id="chan">
+          <h4><div class="rss" id="chan_title"></div></h4>
+          <div class="rss" id="chan_link"></div>
+          <h6><div class="rss" id="chan_description"></div></h6>
+          <a class="rss" id="chan_image_link" href=""></a>
+          <div class="rss" id="chan_items"></div>
+          <div class="rss" id="chan_pubDate"></div>
+          <div class="rss" id="chan_copyright"></div>
+        </div>
+        <script type="text/javascript">
+          getRSS();
+        </script>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12">
+        <hr />
+        <p>Copyright 2015</p></p>
+      </div>
+    </div>
+  </body>
+</html>
