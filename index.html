@@ -58,7 +58,7 @@
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
       </div>
       <div class="col-sm-4">
-        <h3>Column 2</h3>
+        <h3>Calendar</h3>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
         <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
       </div>
@@ -76,7 +76,8 @@
           <div class="rss" id="chan_copyright"></div>
         </div>
         <script type="text/javascript">
-          getRSS("http://192.168.1.250/familytask/feed.xml");
+          var feedTimer = setInterval(function () {getRSS("http://192.168.1.250/familytask/feed.xml")}, 30000);
+          //getRSS("http://192.168.1.250/familytask/feed.xml");
         </script>
       </div>
     </div>
